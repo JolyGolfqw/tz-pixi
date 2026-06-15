@@ -1,4 +1,5 @@
 import CanvasKitInit, { type Canvas, type CanvasKit, type Paint, type Surface } from 'canvaskit-wasm';
+import canvasKitWasmUrl from 'canvaskit-wasm/bin/canvaskit.wasm?url';
 import { Container } from '@pixi/display';
 import { Graphics } from '@pixi/graphics';
 import { SHAPES } from '@pixi/math';
@@ -18,7 +19,7 @@ export class SkiaPixiRenderer {
 
   async init() {
     this.canvasKit = await CanvasKitInit({
-      locateFile: (file) => `/node_modules/canvaskit-wasm/bin/${file}`,
+      locateFile: (file) => (file.endsWith('.wasm') ? canvasKitWasmUrl : file),
     });
 
     this.surface = this.canvasKit.MakeCanvasSurface(this.canvas);

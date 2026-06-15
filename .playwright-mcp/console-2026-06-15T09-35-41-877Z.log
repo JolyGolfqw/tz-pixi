@@ -1,0 +1,21 @@
+[    1108ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://tz-pixi.vercel.app/node_modules/canvaskit-wasm/bin/canvaskit.wasm:0
+[    1110ms] [ERROR] wasm streaming compile failed: TypeError: Failed to execute 'compile' on 'WebAssembly': HTTP status code is not ok @ https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1234
+[    1110ms] [ERROR] falling back to ArrayBuffer instantiation @ https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1234
+[    1110ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://tz-pixi.vercel.app/favicon.ico:0
+[    1193ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://tz-pixi.vercel.app/node_modules/canvaskit-wasm/bin/canvaskit.wasm:0
+[    1194ms] [ERROR] failed to asynchronously prepare wasm: both async and sync fetching of the wasm failed @ https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1234
+[    1194ms] [ERROR] Aborted(both async and sync fetching of the wasm failed) @ https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1234
+[    1195ms] RuntimeError: Aborted(both async and sync fetching of the wasm failed). Build with -sASSERTIONS for more info.
+    at P (https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1235:103102)
+    at L (https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1235:103487)
+    at async https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1235:143750
+    at async https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1235:143626
+    at async mx.init (https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1235:145979)
+    at async https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1255:456
+[    1195ms] RuntimeError: Aborted(both async and sync fetching of the wasm failed). Build with -sASSERTIONS for more info.
+    at P (https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1235:103102)
+    at L (https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1235:103487)
+    at async https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1235:143750
+    at async https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1235:143626
+    at async mx.init (https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1235:145979)
+    at async https://tz-pixi.vercel.app/assets/index-DCMvNpU8.js:1255:456
