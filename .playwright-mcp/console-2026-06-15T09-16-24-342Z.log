@@ -1,0 +1,6 @@
+[     159ms] Error: Unable to auto-detect a suitable renderer.
+    at autoDetectRenderer (http://127.0.0.1:5174/node_modules/.vite/deps/lib-C9d2CiEw.js?v=1e15be3f:11202:8)
+    at new _Application (http://127.0.0.1:5174/node_modules/.vite/deps/lib-DkRPIfKu.js?v=1e15be3f:7:19)
+    at createPixiScene (http://127.0.0.1:5174/src/scene/createScene.ts:15:14)
+    at http://127.0.0.1:5174/src/main.ts:48:21
+[     188ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5174/favicon.ico:0
